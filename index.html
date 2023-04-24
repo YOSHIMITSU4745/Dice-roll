@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIG GAME</title>
+    <link rel="stylesheet" href="pig.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="bothplayers">
+            
+            <div class="player p1 blur">
+                <h1>PLAYER 1</h1>
+                <div class="score s1">43</div>
+                <div class="Tscore T1">
+                    <div class="current">current</div>
+                    <div class="addscore a1">12</div>
+                </div>
+            </div>
+            
+            
+            <div class="player p2 blur">
+                <h1>PLAYER 2</h1>
+                <div class="score s2">40</div>
+                <div class="Tscore T2">
+                    <div class="current">current</div>
+                    <div class="addscore a2">10</div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <button class="ng bt"><div class="t"> ⚛️ NEW GAME</div></button>
+        <button  class="rd bt"><div class="t">🎲 ROLL DICE</div></button>
+        <button class="hold bt"><div class="t">🎮 HOLD</div></button>
+
+        <div class="dice d1 hide"><img src="./dice-1.png" width="100px"alt="1"></div>
+        <div class="dice d2 hide"><img src="./dice-2.png" width="100px" alt="1"></div>
+        <div class="dice d3 hide"><img src="./dice-3.png" width="100px" alt="1"></div>
+        <div class="dice d4 hide"><img src="./dice-4.png" width="100px" alt="1"></div>
+        <div class="dice d5 hide"><img src="./dice-5.png" width="100px" alt="1"></div>
+        <div class="dice d6 hide"><img src="./dice-6.png" width="100px" alt="1"></div>
+        
+        <div class="p1wins hid pw">PLAYER 1 WINS</div>
+        <div class="p2wins hid pw">PLAYER 2 WINS</div>
+
+       
+    </div>
+    <div class="hid blurr"></div>
+    <button class="ng bt hid ng2"><div class="t"> ⚛️ NEW GAME</div></button>
+    <script src="pig.js"></script>
+
+
+
+</body>
+</html>
